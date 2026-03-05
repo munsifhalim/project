@@ -32,7 +32,7 @@ from helpers import (
     render_logo,
 )
 
-st.set_page_config(page_title="Consolidated Report", layout="wide")
+st.set_page_config(page_title="Consolidated Report", layout="wide", initial_sidebar_state="expanded")
 apply_light_theme()
 
 

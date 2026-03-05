@@ -4,7 +4,7 @@ import streamlit as st
 
 from helpers import AGE_LABELS, DISEASE_COLUMNS, apply_light_theme, filter_dataset, load_preprocessed_data, render_logo
 
-st.set_page_config(page_title="Case Analysis", layout="wide")
+st.set_page_config(page_title="Case Analysis", layout="wide", initial_sidebar_state="expanded")
 apply_light_theme()
 
 render_logo(220)
